@@ -1,1 +1,40 @@
-<p>onboarding works!</p>
+<div class="onboarding">
+  <h1>Onboarding</h1>
+  <button class="btn btn-light mr-2">
+    <i class="material-icons">control_point</i>
+    New
+  </button>
+  <button class="btn btn-light">
+    <i class="material-icons">edit</i>
+    Customize Table
+  </button>
+  <div class="contracts-container mt-4">
+    <h5>Contracts</h5>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>State</th>
+          <th>Modified By</th>
+          <th>Modified</th>
+          <th>Description</th>
+          <th>Asking Amount</th>
+          <th>Instance Appraiser</th>
+          <th>Instance Owner</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr (click)="handleRowClick(1)">
+          <td>16</td>
+          <td>Accepted</td>
+          <td>Gurmeet Singh</td>
+          <td>11/18/19</td>
+          <td>Test</td>
+          <td>14</td>
+          <td>Sachin Tanwar</td>
+          <td>Govindeep Singh</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
