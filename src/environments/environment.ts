@@ -3,7 +3,14 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  config: {
+    tenant: 'carboncurrencyad.onmicrosoft.com',
+    clientId: 'd73371f0-3249-4b06-9377-6393c24df238',
+    endpoints: {
+      'http://localhost:4200/': 'the id'
+    }
+  }
 };
 
 /*

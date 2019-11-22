@@ -5,3 +5,19 @@
 body {
   background-color: #f4f4f4 !important;
 }
+
+.form-group {
+  padding-bottom: 14px;
+  vertical-align: middle;
+}
+
+form {
+  .error-messages {
+    color: red;
+    font-weight: 300;
+    position: absolute;
+    padding-top: 2px;
+    text-align: left;
+    font-size: 12px;
+  }
+}
